@@ -1,7 +1,44 @@
 # Flix
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+
+- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+#### BONUS
+
+- [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
+- [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
+  - [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+  - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
+- [ ] Apply data binding for views to help remove boilerplate code. (1 point)
+- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+- [X] Change UI background color for all screens.
+- [X] Change text color for the MainActivity UI screen.
+- [X] Change text color and size in DetailActivity UI screen.
+- [X] Add two text views as labels for release date and overview, change text color, size and font for those text views.
+- [X] Add release date of movie in DetailActivity UI screen.
+- [X] Change color of stars to purple in rating bar.
+
+### App Walkthough GIF
+
+<img src="walkthrough2.gif" width=250><br>
+
+### Notes
+
+Describe any challenges encountered while building the app.
+A challenge that I faced during building this app was that I tried to implement the stretch story of "Add a rounded corners for the images using the Glide transformations" and it did not work. I was not getting results and it was not working. If I had more time to work on this project, I would look more into completing this stretch story. Another problem that I faced when I was building the app was that in the beginning, my emulator would not work. It would show up but Android Studio would not recognize it and it would cause an error which lead to the emulator not being launched successfully. This meant that the app was not working properly on the emulator as well. I fixed this problem by creating a new emulator and running the app again. Then the new emulator worked properly after that. 
+
+## Open-source libraries used
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+
 
 ---
 
